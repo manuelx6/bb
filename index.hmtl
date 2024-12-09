@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido al Chatbot</title>
+    <style>
+        /* Reseteo de estilos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Fondo y estructura */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f8fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        /* Contenedor principal */
+        .container {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 450px;
+            width: 100%;
+        }
+        
+        /* Título principal */
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        /* Descripción breve */
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        /* Estilo del botón */
+        .btn {
+            background-color: #0078D4;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 120, 212, 0.4);
+        }
+        
+        .btn:hover {
+            background-color: #005a8b;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 120, 212, 0.5);
+        }
+
+        .btn:focus {
+            outline: none;
+        }
+        
+        /* Animación del botón */
+        .btn:active {
+            transform: translateY(1px);
+        }
+        
+        /* Sección de logo o imagen */
+        .logo {
+            margin-bottom: 40px;
+        }
+
+        .logo img {
+            max-width: 120px;
+        }
+        
+        /* Responsividad */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .container {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <!-- Aquí puedes incluir un logo o icono que represente la marca -->
+            <img src="https://uparsistem.edu.co/wp-content/uploads/2023/01/Logo.png" alt="Logo del Chatbot">
+        </div>
+        <h1>Bienvenido al Chatbot</h1>
+        <p>Gracias por visitar. Haz clic en el botón a continuación para iniciar una conversación con nuestro asistente inteligente. ¡Estamos aquí para ayudarte!</p>
+        <a href="bot.html" class="btn">Iniciar Chat</a>
+    </div>
+</body>
+</html>
